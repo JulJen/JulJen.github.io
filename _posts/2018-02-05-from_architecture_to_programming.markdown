@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "From Architecture to Programming"
+title:      "Learning to Learn"
 date:       2018-02-05 21:12:53 -0500
 permalink:  from_architecture_to_programming
 ---
