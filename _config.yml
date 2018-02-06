@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: juliajen.prog@gmail.com
 copyright_name: JulJen
 description: > # this means to ignore newlines until "baseurl:"
-  Aspiring web developer 
+  my dev journey 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: jul0jen
 github_username:  JulJen
