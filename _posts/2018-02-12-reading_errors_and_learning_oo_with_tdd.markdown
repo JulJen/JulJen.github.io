@@ -12,6 +12,7 @@ I will practice writing the tests before writing any methods - I did this follow
 
 It's always easier to start with a topic that you enjoy so my theme will be on "climbing". 
 * This is an example of a “has-many-through” relationship:
+
 ```
  Mountaineer
    has_many mountains
