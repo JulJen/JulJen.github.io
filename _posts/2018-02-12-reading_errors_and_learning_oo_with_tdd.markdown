@@ -115,8 +115,8 @@ I run $`rspec --f-f` and no more failures. Now I can  begin to write tests to ex
 end
 ```
 
-I run $`rspec --f-f`, read the error message and begin to solve my next failure. Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
-
+I run $`rspec --f-f`, read the error message and begin to solve my next failure. 
+* Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
 ```
  Failures:
  1) Mountaineer with mountain #mountains has an empty array of mountains when initialized
@@ -180,10 +180,15 @@ end
 ```
 
 **What I learned at the beginning of this video walk-through:**
-* Only write enough code to make each test pass.
+
+* Only write enough code to make each test pass
+
 * Objects collaborating  on a TD level
+
 * Define **[custom error messages ](https://ruby-doc.org/core-2.5.0/Exception.html)**
+
 * What is an **[environment?](http://blog.honeybadger.io/ruby-guide-environment-variables/)**
+
 * Running $`rspec --format=documentation` , returns **[RSpec](http://rspec.info/about/)** in the documentation format. This is helpful to understand why each string in the spec file creates a more readable test:
 ```
  Mountain
