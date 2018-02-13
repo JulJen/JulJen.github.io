@@ -116,6 +116,7 @@ end
 ```
 
 I run $`rspec --f-f`, read the error message and begin to solve my next failure. Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
+
 ```
  Failures:
  1) Mountaineer with mountain #mountains has an empty array of mountains when initialized
