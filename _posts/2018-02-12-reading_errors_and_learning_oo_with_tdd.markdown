@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Reading Errors and learning OO with TDD"
-date:       2018-02-13 02:03:53 +0000
+date:       2018-02-12 21:03:53 -0500
 permalink:  reading_errors_and_learning_oo_with_tdd
 ---
 
