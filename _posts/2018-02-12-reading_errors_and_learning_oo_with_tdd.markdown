@@ -190,22 +190,22 @@ end
 * What is an **[environment?](http://blog.honeybadger.io/ruby-guide-environment-variables/)**
 
 * Running $`rspec --format=documentation` , returns **[RSpec](http://rspec.info/about/)** in the documentation format. This is helpful to understand why each string in the spec file creates a more readable test:
- ```
-  Mountain
-    has a name
+```
+ Mountain
+   has a name
 
-  Mountaineer
-    has a name
-    with mountain
-      #mountains
-        has an empty array of mountains when initialized
-      add_mountain
-        it can push mountain instances onto it
-        only allows mountains to be pushed onto it
+ Mountaineer
+   has a name
+   with mountain
+     #mountains
+       has an empty array of mountains when initialized
+     add_mountain
+       it can push mountain instances onto it
+       only allows mountains to be pushed onto it
 
-  Sherpa
-    has a name
- 
-  Finished in 0.00508 seconds (files took 0.21448 seconds to load)
-  6 examples, 0 failures
+ Sherpa
+   has a name
+
+ Finished in 0.00508 seconds (files took 0.21448 seconds to load)
+ 6 examples, 0 failures
 ```
