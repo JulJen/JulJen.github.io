@@ -116,6 +116,7 @@ end
 ```
 
 I run $`rspec --f-f`, read the error message and begin to solve my next failure. 
+
 * Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
 ```
  Failures:
@@ -190,6 +191,7 @@ end
 * What is an **[environment?](http://blog.honeybadger.io/ruby-guide-environment-variables/)**
 
 * Running $`rspec --format=documentation` , returns **[RSpec](http://rspec.info/about/)** in the documentation format. This is helpful to understand why each string in the spec file creates a more readable test:
+
 ```
  Mountain
    has a name
