@@ -190,6 +190,7 @@ end
 * What is an **[environment?](http://blog.honeybadger.io/ruby-guide-environment-variables/)**
 
 * Running $`rspec --format=documentation` , returns **[RSpec](http://rspec.info/about/)** in the documentation format. This is helpful to understand why each string in the spec file creates a more readable test:
+
 ```
  Mountain
    has a name
