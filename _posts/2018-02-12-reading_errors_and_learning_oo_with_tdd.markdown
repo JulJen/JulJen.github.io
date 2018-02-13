@@ -27,9 +27,8 @@ This is an example of a “has-many-through” relationship:
    has_many mountaineers, through mountains
 ```
 
+Given a 'mountaineer', I want to be able to **call a method** called 'mountains' and **expect back instances** of 'mountain'. 
 
-
-* Given a 'mountaineer', I want to be able to **call a method** called 'mountains' and **expect back instances** of 'mountain'. 
 ```
 hillary = Climber.new
 hillary.mountains #=> [#<Mountain>, #<Mountain>] 
@@ -115,8 +114,8 @@ I run $`rspec --f-f` and no more failures. Now I can  begin to write tests to ex
 end
 ```
 
-I run $`rspec --f-f`, read the error message and begin to solve my next failure. Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
-
+I run $`rspec --f-f`, read the error message and begin to solve my next failure. 
+* Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
 ```
  Failures:
  1) Mountaineer with mountain #mountains has an empty array of mountains when initialized
