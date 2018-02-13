@@ -28,7 +28,6 @@ This is an example of a “has-many-through” relationship:
 ```
 
 Given a 'mountaineer', I want to be able to **call a method** called 'mountains' and **expect back instances** of 'mountain'. 
-
 ```
 hillary = Climber.new
 hillary.mountains #=> [#<Mountain>, #<Mountain>] 
