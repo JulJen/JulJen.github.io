@@ -70,7 +70,6 @@ end
 ```
 
 
-
 I run $`rspec --f-f` to see my failures. My first errors return that there is a `NameError` and an `uninitialized constant`. 
 
 * What is a **[NameError](http://ruby-doc.org/core-2.3.0/NameError.html)**?
@@ -115,9 +114,8 @@ I run $`rspec --f-f` and no more failures. Now I can  begin to write tests to ex
 end
 ```
 
-I run $`rspec --f-f`, read the error message and begin to solve my next failure. 
+I run $`rspec --f-f`, read the error message and begin to solve my next failure. Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
 
-* Based on my new updated mountaineer_spec.rb, I need to set 'mountains' to an empty array. 
 ```
  Failures:
  1) Mountaineer with mountain #mountains has an empty array of mountains when initialized
