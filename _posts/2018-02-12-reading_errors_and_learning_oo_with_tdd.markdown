@@ -11,7 +11,7 @@ Back when I started the section about *[Object Relationships](https://learn.co/t
 I will practice writing the tests before writing any methods - I did this following one of the [learn-instruct](http://instruction.learn.co/student/home) OO video lectures using [atom text editor](https://atom.io/) and [terminal (Mac command line)](https://www.davidbaumgold.com/tutorials/command-line/). This is also a good way for me to learn how to read error messages. At the beginning it was difficult to get a grasp of what all the errors messages meant. I would refer back to the [lesson on debugging ](https://learn.co/tracks/full-stack-web-development-v4/intro-to-ruby-development/debugging/reading-error-messages)in the Intro To Ruby Development section and the video lecture on [Learn Instruct](http://instruction.learn.co/student/video_lectures#/179).
 
 It's always easier to start with a topic that you enjoy so my theme will be on "climbing". 
-* This is an example of a “has-many-through” relationship:
+This is an example of a “has-many-through” relationship:
 
 ```
  Mountaineer
