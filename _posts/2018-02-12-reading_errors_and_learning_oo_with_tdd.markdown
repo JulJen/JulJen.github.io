@@ -70,6 +70,7 @@ end
 ```
 
 
+
 I run $`rspec --f-f` to see my failures. My first errors return that there is a `NameError` and an `uninitialized constant`. 
 
 * What is a **[NameError](http://ruby-doc.org/core-2.3.0/NameError.html)**?
