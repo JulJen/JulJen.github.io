@@ -21,7 +21,7 @@ Here are some tips that helped me stay on track:
 
 * Find a site that is easy to scrape. Don't make it too hard for yourself - inspect the elements and see if they are scrapable. Start off with individual scrape methods and use CSS selectors to scrape desired information. 
 
-* Get comfortable committing and pushing changes to github more often. I hesitated to commit when my code was all over the place, but I learned a lot from my many mistakes. For example, I was editing my code directly on GitHub in my repository and I had forgotten to git pull --rebase before committing and pushing new changes up to github locally.
+* Get comfortable committing and pushing changes to GitHub and do it often. I hesitated to commit when my code was all over the place, but I learned a lot from my many mistakes. For example, I was editing my code directly on GitHub in my repository and I had forgotten to git pull --rebase before committing and pushing new changes up to github locally.
 
 * Use all your available  resources - watch and rewatch the Learn video walkthroughs and attend the study groups.
 
