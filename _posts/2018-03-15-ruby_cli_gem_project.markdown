@@ -9,6 +9,7 @@ permalink:  ruby_cli_gem_project
 Woohoo! I am so excited to announce that I've finally finished my first Ruby CLI application at Flatiron School, a gem that scrapes the endangered species list and also gets the latest stories on the [ World Wildlife Fund (WWF)](https://www.worldwildlife.org/) website in an easy to use application!
 
 Please check it out here:
+* [endangered_species gem](https://rubygems.org/gems/endangered_species/versions/0.1.1)
 * [GitHub repo](https://github.com/JulJen/endangered-species-cli-app)
 * [Video walkthrough](https://youtu.be/HiXm8j38ZB8)
 
