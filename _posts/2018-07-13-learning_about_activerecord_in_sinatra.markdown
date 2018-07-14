@@ -22,6 +22,7 @@ In this app, I demonstrate:
 * Seeing someone else’s recipe
  
 ## ** Models**
+
 It was really helpful to draw out a model relationship diagram to better understand the belongs_to and has_many associations. I decided to have 4 models - user, recipe, ingredient, and recipe_ingredient model. 
 * the user has_many recipes and recipes belong_to a user
 * recipes has_many recipe ingredients and has_many ingredients through recipe_ingredients
@@ -54,6 +55,7 @@ end
 ```
 
 ## **Views**
+
 I started with an initial landing page, a root.erb for when the user is not logged in. It helped to visualize the user process by creating a user flow diagram. 
 
 ![Relationship diagram](https://www.lucidchart.com/publicSegments/view/efbe797a-244d-4848-bcd8-66690f3c4106/image.png) 
@@ -97,8 +99,6 @@ Recipe.destroy_all
   )
 end
 ```
-
-
 
 
 I tested this application in the browser with the help of gems  'shotgun' and 'pry'. I was able to check line by line of code and also refresh the page to see changes without having to restart the local server.
