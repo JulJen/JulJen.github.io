@@ -8,7 +8,7 @@ permalink:  learning_about_activerecord_in_sinatra
 
 For my second project, I built a functional Sinatra MVC (Model View Controller) Application, using ActiveRecord. The 'Locavore Kitchen' application allows a user with an account to create recipes with a name including a headline title,  recipe directions, and list of ingredients. 
 
-Check out  my project on GitHub:  [Locavore Kitchen](http://https://github.com/JulJen/locavore-kitchen-app) 
+Check out  my project on GitHub:  [Locavore Kitchen](https://github.com/JulJen/locavore-kitchen-app) 
 
 In this app, I demonstrate:
 
