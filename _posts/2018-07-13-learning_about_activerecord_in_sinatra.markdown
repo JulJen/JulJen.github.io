@@ -36,7 +36,7 @@ It was really helpful to draw out a model relationship diagram to better underst
 
 
  
-  ##### Controllers
+##### Controllers
 I started off with just an application_controller.rb file which inherits from Sinatra::Base. 
 ```
 class ApplicationController < Sinatra::Base
