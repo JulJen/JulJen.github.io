@@ -54,12 +54,12 @@ end
 ```
 
 ## **Views**
-I started with an initial landing page, a root.erb for when the user is not logged in. With controller subclasses for users, recipes, and ingredients, it was helpful to create folders for each as well for creating, editing and viewing.
-
-
-It helped to visualize the user process by creating a user flow diagram to figure out what views I needed.
+I started with an initial landing page, a root.erb for when the user is not logged in. It helped to visualize the user process by creating a user flow diagram. 
 
 ![Relationship diagram](https://www.lucidchart.com/publicSegments/view/efbe797a-244d-4848-bcd8-66690f3c4106/image.png) 
+
+
+### **Gems**
 
 One fun little gem that I enjoyed using is ['ffaker](https://github.com/ffaker/ffaker)' , a library to generate fake data (creates and saves instances) of the models. 
 * Declare the dependency in your gemfile and run `$ bundle install`
