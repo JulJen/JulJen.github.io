@@ -54,6 +54,8 @@ class IngredientsController < ApplicationController
 end 
 ```
 
+
+
 ## **Views**
 
 I started with an initial landing page, a root.erb for when the user is not logged in. It helped to visualize the user process by creating a user flow diagram. 
