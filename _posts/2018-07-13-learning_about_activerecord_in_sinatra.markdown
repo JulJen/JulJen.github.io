@@ -21,7 +21,7 @@ In this app, I demonstrate:
 * Logging in as another user
 * Seeing someone else’s recipe
  
-## ** Models**
+## **Models**
 
 It was really helpful to draw out a model relationship diagram to better understand the belongs_to and has_many associations. I decided to have 4 models - user, recipe, ingredient, and recipe_ingredient model. 
 * the user has_many recipes and recipes belong_to a user
@@ -33,7 +33,7 @@ It was really helpful to draw out a model relationship diagram to better underst
 
 
 
-## ** Controllers**
+## **Controllers**
 
 I started off with just an application_controller.rb file which inherits from Sinatra::Base. 
 ```
