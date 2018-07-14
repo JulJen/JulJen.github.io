@@ -20,12 +20,8 @@ In this app, I demonstrate:
 * Logging out
 * Logging in as another user
 * Seeing someone else’s recipe
-
-
-#### MVC Structure
- Using a modular style and following the pattern of an [MVC](https://imgur.com/gallery/yAnCh) file structure for my app:
  
-  ##### Models
+### Models
 It was really helpful to draw out a model relationship diagram to better understand the belongs_to and has_many associations. I decided to have 4 models - user, recipe, ingredient, and recipe_ingredient model. 
 * the user has_many recipes and recipes belong_to a user
 * recipes has_many recipe ingredients and has_many ingredients through recipe_ingredients
@@ -35,8 +31,7 @@ It was really helpful to draw out a model relationship diagram to better underst
 ![locavore-kitchen-app_modelrelationship_diagram](https://www.lucidchart.com/publicSegments/view/3f6125df-84b7-437f-b656-cfa216328703/image.png)
 
 
- 
-##### Controllers
+ ### Controllers
 I started off with just an application_controller.rb file which inherits from Sinatra::Base. 
 ```
 class ApplicationController < Sinatra::Base
@@ -56,7 +51,7 @@ class IngredientsController < ApplicationController
 end 
 ```
 
-##### Views
+### Views
 I started with an initial landing page, a root.erb for when the user is not logged in. With controller subclasses for users, recipes, and ingredients, it was helpful to create folders for each as well for creating, editing and viewing.
 
 
