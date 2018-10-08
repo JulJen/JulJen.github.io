@@ -1,19 +1,19 @@
 ---
 layout: post
-title:      "ProjectManageable - Rails Project"
-date:       2018-10-08 01:15:28 +0000
+title:      "Rails Project"
+date:       2018-10-07 21:15:29 -0400
 permalink:  projectmanageable_-_rails_project
 ---
 
 
 
 
-### App Overview
+## App Overview
 “Project Manageable” is a simple Rails application that allows users manage and share project with others. Creating this Rails app was a fun and challenging exercise. It helped me understand the fundamentals of how to build the app following RESTful Rails principles and design patterns. You can check out the repo [here](https://github.com/JulJen/project_manageable_app/)!
 
 For understanding how to organize my rails app files, it helped to review how a request/response cycle works. 
 
-###### Request/Response cycle:
+### Request/Response cycle:
 
 When submitting a HTTP (URL) request with a specified method/verb (GET, POST, PATCH, PUT, DELETE):
 *  the **request** hits the **router** (config/routes.rb),
@@ -28,7 +28,7 @@ When submitting a HTTP (URL) request with a specified method/verb (GET, POST, PA
 * Browser - page loads and the user can see the rendered info
 
 
-###### [What is REST?](https://www.youtube.com/watch?v=a2igBE6oRhE)
+### [What is REST?](https://www.youtube.com/watch?v=a2igBE6oRhE)
 
 > REST stands for REpresentational State Transfer and describes resources (in our case URLs) on which we can perform actions. REST is an architectural style for applications. REST resources can be the result of different database queries, and neither the client nor the REST server really needs to know how these queries are constructed or where the data comes from.  - [RESTful Rails Development by Silvia Puglisi](https://www.oreilly.com/library/view/restful-rails-development/9781491910849/ch04.html)
 > 
@@ -57,7 +57,7 @@ Previously when working on my Sinatra CRUD (index, show, new, create, and destro
 ```
 
 
-###### ActiveRecord model associations:
+### ActiveRecord model associations:
 
 
 Stubbing out your project is key.  Thinking about user functionality, I wanted the user to have a homepage, an account/profile page, projects,  project posts,  and categories for organizing projects by interest/industry groups. Next was setting up the model associations. Using the ruby console (`rails c`) to play around with has-many-through model associations is a great way to see how active record uses the built-in Object Relational Mapping system to manage model relationships. Using the[ rails-erd gem](https://github.com/voormedia/rails-erd) was helpful to visually review my model associations through a entity-relationship diagram (ERD).
@@ -66,7 +66,7 @@ Stubbing out your project is key.  Thinking about user functionality, I wanted t
 
 ![Imgur](https://i.imgur.com/nKdY2DYl.jpg)
 
-###### Overview for model associations:
+### Overview for model associations:
 
 * Users -  **has_many** memberships and **has_many** projects *through* memberships. With the *has many through association*, the user has access to projects through the membership table. 
 
@@ -81,7 +81,7 @@ Stubbing out your project is key.  Thinking about user functionality, I wanted t
 * Comments - This would be an additional join table that I would like to add and work on. Comments   **belongs_to** post and **belongs_to** user. Once a user becomes a project member (has a membership_id that points to the project_id and user_id), they can also view and comment on project posts. 
 
 
-###### Gems
+### Gems
 * For third-party authentication, I used the google authentication strategy - [omniauth-google-oauth2 ](https://github.com/zquestz/omniauth-google-oauth2). 
 * I used [Faker](https://github.com/stympy/faker) gem to quickly generate random and unique user data in my seeds.rb file. 
 * I also played around with the [Simple Form](https://github.com/plataformatec/simple_form) gem. Previously, to have form validations rendered in my view, for example, for user sign-up, I would include a block of code like this:
@@ -103,7 +103,7 @@ With the simple_form gem, I can write fewer lines of code and still render my fo
 <% end %>
 ```
 
-###### Goals (for future projects) :
+### Goals (for future projects) :
 
 * For my next app, I would like to learn more about the BDD process get into TDD, and also work on some CSS styling. 
 
