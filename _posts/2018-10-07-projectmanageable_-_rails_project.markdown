@@ -107,7 +107,7 @@ With the simple_form gem, I can write fewer lines of code and still render my fo
 
 * For my next app, I would like to learn more about the BDD process get into TDD, and also work on some CSS styling. 
 
-###### Helpful resources:
+### Resources:
 * [When to use has_and_belongs_to_many (hint: never)](https://flatironschool.com/blog/why-you-dont-need-has-and-belongs-to-many/)
 * [Rails Request-Response Cycle]( https://www.codecademy.com/articles/request-response-cycle-dynamic
 ])
